@@ -11,6 +11,7 @@ interface RepositoriSiswa {
 
     suspend fun deleteSiswa(siswa: Siswa)
 
+    suspend fun updateSiswa(siswa: Siswa)
 }
 
 class OfflineRepositoriSiswa(
